@@ -289,7 +289,7 @@ class BasePlugin:
                 # on releve les valeurs
                 if remoteObject["Channel"] > -1:
 
-                id = remoteObject["Channel"]
+                    id = remoteObject["Channel"]
 
 
 
