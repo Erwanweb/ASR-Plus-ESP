@@ -358,7 +358,7 @@ class BasePlugin:
                                 Devices[5].Update(nValue = self.powerOn,sValue = "40")  # AC Fan Speed High
                                 Domoticz.Log("Fan speed high because room temp is lower more than delta min from setpoint")
                                 requestUrl = self.buildCommandString()
-                                self.ESPcommandAPI(requestUrl))
+                                self.ESPcommandAPI(requestUrl)
                         else:
                             if not Devices[5].sValue == "10":
                                 Devices[5].Update(nValue = self.powerOn,sValue = "10")  # AC Fan Speed Auto
