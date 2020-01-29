@@ -694,7 +694,7 @@ def ESPcommandAPI(APICall):
     if response.status == 200:
         Domoticz.Debug("ESP Command API Sent -- OK")
     else:
-        Domoticz.Error("ESP Command API: http error = {}".format(response.status)))
+        Domoticz.Error("ESP Command API: http error = {}".format(response.status))
 
     return resultJson
 
