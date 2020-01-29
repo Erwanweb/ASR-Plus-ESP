@@ -692,7 +692,7 @@ def ESPcommandAPI(APICall):
 
     response = request.urlopen(req)
     if response.status == 200:
-        Domoticz.Debug("ESP Command API Sent -- OK)
+        Domoticz.Debug("ESP Command API Sent -- OK")
     else:
         Domoticz.Error("ESP Command API: http error = {}".format(response.status)))
 
