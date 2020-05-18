@@ -15,42 +15,7 @@ Version:    0.1.1: beta
         <param field="Address" label="Domoticz IP Address" width="200px" required="true" default="127.0.0.1"/>
         <param field="Port" label="Port" width="40px" required="true" default="8080"/>
         <param field="Username" label="ESP IP" width="200px" required="true" default=""/>
-        <param field="Password" label="AC Brand" width="300px">
-            <options>
-                <option label="Midea (generic)" value="midea" default="true"/>
-                <option label="Gree (generic)" value="gree"/>
-                <option label="Gree YAN" value="greeyan"/>
-                <option label="Gree YAA" value="greeyaa"/>
-                <option label="Daikin" value="daikin"/>
-                <option label="Daikin ARC417" value="daikin_arc417"/>
-                <option label="Panasonic CPK" value="panasonic_ckp"/>
-                <option label="Panasonic DKE" value="panasonic_dke"/>
-                <option label="Panasonic JKE" value="panasonic_jke"/>
-                <option label="Panasonic LKE" value="panasonic_lke"/>
-                <option label="Carrier/Toshiba NQV" value="carrier_nqv"/>
-                <option label="Carrier/Toshiba MCA" value="carrier_mca"/>
-                <option label="Fujitsu AWYZ" value="fujitsu_awyz"/>
-                <option label="Mitsubishi FD" value="mitsubishi_fd"/>
-                <option label="Mitsubishi FE" value="mitsubishi_fe"/>
-                <option label="Mitsubishi MSY" value="mitsubishi_msy"/>
-                <option label="Mitsubishi MSC" value="mitsubishi_msc"/>
-                <option label="Mitsubishi FA" value="mitsubishi_fa"/>
-                <option label="Samsung AQV" value="samsung_aqv"/>
-                <option label="Samsung FJM" value="samsung_fjm"/>
-                <option label="Sharp" value="sharp"/>
-                <option label="Mitsubishi Heavy Electric ZJ" value="mitsubishi_heavy_zj"/>
-                <option label="Mitsubishi Heavy Electric ZM" value="mitsubishi_heavy_zm"/>
-                <option label="Mitsubishi Heavy FDTC" value="mitsubishi_heavy_fdt"/>
-                <option label="Mitsubishi SEZ" value="mitsubishi_sez"/>
-                <option label="Hyundai" value="hyundai"/>
-                <option label="Hisense" value="hisense_aud"/>
-                <option label="Fuego" value="fuego"/>
-                <option label="Toshiba" value="toshiba"/>
-                <option label="Toshiba Daiseikai" value="toshiba_daiseikai"/>
-                <option label="IVT" value="ivt"/>
-                <option label="Hitachi" value="hitachi"/>
-                <option label="AUX" value="AUX"/>
-            </options>
+        <param field="Password" label="AC Brand" width="300px" required="true" default=""/>
         <param field="Mode2" label="Pause sensors (csv list of idx)" width="100px" required="false" default=""/>
         <param field="Mode3" label="Presence Sensors (csv list of idx)" width="100px" required="false" default=""/>
         <param field="Mode4" label="Inside Temperature Sensors (csv list of idx)" width="100px" required="false" default="0"/>
