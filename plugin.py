@@ -15,7 +15,7 @@ Version:    0.1.1: beta
         <param field="Address" label="Domoticz IP Address" width="200px" required="true" default="127.0.0.1"/>
         <param field="Port" label="Port" width="40px" required="true" default="8080"/>
         <param field="Username" label="ESP IP" width="200px" required="true" default=""/>
-        <param field="Password" label="AC Brand" width="200px" required="true">
+        <param field="Password" label="AC Brand" width="200px">
             <options>
                 <option label="Midea (generic)" value="midea"  default="true"/>
                 <option label="Gree (generic)" value="gree"/>
