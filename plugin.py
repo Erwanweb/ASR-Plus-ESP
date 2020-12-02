@@ -429,7 +429,7 @@ class BasePlugin:
                 Domoticz.Error("ESP Command API: http error = {}".format(response.status))
 
         except:
-            Domoticz.Error("ESP seems not connected")
+            Domoticz.Log("ESP seems not connected")
             Devices[1].Update(nValue = 0,sValue = "0")
 
         return resultJson
@@ -728,7 +728,7 @@ def ESPcommandAPI(APICall):
         else:
             Domoticz.Error("ESP Command API: http error = {}".format(response.status))
     except:
-        Domoticz.Error("ESP seems not connected - Command not sent")
+        Domoticz.Log("ESP seems not connected - Command not sent")
     return resultJson
 
 def ESPconnectAPI(APICall):
@@ -746,7 +746,7 @@ def ESPconnectAPI(APICall):
             Domoticz.Error("ESP Command API: http error = {}".format(response.status))
 
     except:
-        Domoticz.Error("ESP seems not connected")
+        Domoticz.Log("ESP seems not connected")
 
     return resultJson
 
